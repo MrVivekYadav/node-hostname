@@ -26,4 +26,4 @@ jobs:
       
     - name: docker push
       run: |
-        docker push my-image-name:$(date +%s)
+        docker push vivek/testimage:1.0
