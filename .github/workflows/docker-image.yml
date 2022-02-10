@@ -11,7 +11,7 @@ jobs:
     name: Build and Push to GCP
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: test-app
+      IMAGE_NAME: testappimages
       PROJECT_ID: test-project-340719
     steps:
     - name: Checkout
